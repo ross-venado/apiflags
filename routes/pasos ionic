@@ -1,0 +1,14 @@
+pasos ionic 
+
+1 ionic start flags  tabs
+
+mover las carpeta tabs a una que se llame pages (modificar el routing de las tabs)
+
+2 creamos el servido de api 
+ionic g s services/apiflags --skipTests= true
+
+
+
+para hacer peticiones  http en el global module
+
+import { HttpClientModule} from '@angular/common/http';
