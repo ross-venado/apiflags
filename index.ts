@@ -29,7 +29,7 @@ server.app.use('/posts', postRoutes );
 
 
 // Conectar DB
-mongoose.connect('mongodb://localhost:27017/fotosgram', 
+mongoose.connect('mongodb+srv://sa:vDiPb5Ni7LkRdnbL@cluster0-a0oeh.mongodb.net/test?retryWrites=true&w=majority', 
                 { useNewUrlParser: true, useCreateIndex: true }, ( err ) => {
 
    if ( err ) throw err;
